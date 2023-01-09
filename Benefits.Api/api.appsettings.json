@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "BenefitsSettings": {
+      "EmployeeCostAnnual": 1000.00,
+      "PerDependentCostAnnual": 500.00,
+      "DiscountPercentage": 0.10,
+      "PayPeriodsAnnual": 26
+    }
+  }
+}

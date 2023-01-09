@@ -1,0 +1,10 @@
+﻿{
+  "AppSettings": {
+    "ApiLambdaName": "BenefitsApiLambda",
+    "ApiGatewayName": "BenefitsApiGateway",
+    "EmployeeTableName": "Employee",
+    "DependentTableName": "Dependent",
+    "ComputeStackName": "BenefitsApiComputeStack",
+    "DataStackName": "BenefitsApiDataStack"
+  }
+}
