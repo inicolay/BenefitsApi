@@ -8,9 +8,9 @@ namespace Benefits.Api.Models.Api
         public long EmployeeId { get; set; }
 
         [Required]
-        public string FirstName { get; set; }
+        public string FirstName { get; set; } = String.Empty;
 
         [Required]
-        public string LastName { get; set; }
+        public string LastName { get; set; } = String.Empty;
     }
 }

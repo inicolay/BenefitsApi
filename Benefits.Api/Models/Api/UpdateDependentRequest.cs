@@ -5,14 +5,14 @@ namespace Benefits.Api.Models.Api
     public class UpdateDependentRequest
     {
         [Required]
-        public string DependentId { get; set; }
+        public string DependentId { get; set; } = String.Empty;
         [Required]
         public long EmployeeId { get; set; }
-        
-        [Required]
-        public string FirstName { get; set; }
 
         [Required]
-        public string LastName { get; set; }
+        public string FirstName { get; set; } = String.Empty;
+
+        [Required]
+        public string LastName { get; set; } = String.Empty;
     }
 }
